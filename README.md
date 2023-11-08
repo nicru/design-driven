@@ -64,12 +64,27 @@
 | Content | Content |
 ****
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ****
 [**Digital Commons RISD**](https://digitalcommons.risd.edu/)
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ****
 [**Digital Archives Newschool**](https://digital.archives.newschool.edu/)
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ****
 [**DSpace MIT**](https://dspace.mit.edu/)
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ****
 [**Aaltodoc**](https://aaltodoc.aalto.fi/)
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ## **Referentes**
