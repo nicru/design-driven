@@ -40,9 +40,22 @@
 | **Publicaciones científicas:** >10 | **N/0 5:** Formar diseñadores y diseñadoras preparados para los desafíos del mañana|
 ----
 **Usuario Premedio n1°** Estudiante en vías de Titulación Diseño UC 
-| Perfil personal | Conductas & Creencias | Demografía | Necesidades & Goals |
-| ---------------- | ---------------- | ---------------- | ---------------- |
-| Some content     | Other content    | Other content    | Other content    | 
+| Perfil personal | Conductas & Creencias |
+| ---------------- | ---------------- | 
+| **Nombre:** Matías | - Cree en el potencial del Diseño como disciplina para ofrecer nuevos marcos epistemológicos de comprensión del mundo |
+| **Género:** Masculino | - Le parece interesante qué se puede decir como académico del Diseño desde Latinoamérica y Chile (factor diferenciador) |
+| **Edad:** 38 años | - Cree que les estudiantes de Diseño deberían leer más en su pregrado y desarrollar el pensamiento crítico |
+| **Ocupación:** Director de Escuela | - Piensa que es importante mediar los intereses de la academia con los de la industria para el desarrollo de la I+D en Diseño |
+| **Formación:** Cientista Social UC | - Le preocupa cómo se va a transformar la enseñanza y el ejercicio del Diseño a futuro|
+| **Idioma:** Español, Inglés | - Busca constantemente oportunidades de internacionalización y colaboración |
+
+| Demografía | Necesidades & Objetivos |
+| ---------------- | ---------------- |
+| **Años de Experiencia:** 10 | **N/0 1:** Disponer de información confiable y ordenada de qué se está investigando en la Escuela |
+| **Nivel educacional:** Doctorado | **N/0 2:** Facilitar los procesos de investigación a nivel escuela con mejores herramientas |
+| **Ambición:** Muy Alta | **N/0 3:** Obtener oportunidades de financiamiento y fondos para la Escuela y su comunidad |
+| **Manejo tecnológico:** Medio | **N/0 4:** Traer invitados relevantes y de renombre a la Escuela que hagan sentido a la comunidad |
+| **Publicaciones científicas:** >10 | **N/0 5:** Formar diseñadores y diseñadoras preparados para los desafíos del mañana|
 ----
 ## **Antecedentes**
 ## **Referentes**
