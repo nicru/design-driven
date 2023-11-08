@@ -24,12 +24,12 @@
 **Usuario Límite n°2** Directivos de la Escuela de Diseño UC 
 | Perfil personal | Conductas & Creencias |
 | ---------------- | ---------------- | 
-| **Nombre:** Matías | - Cree que el MADA le ofrece una oportunidad para pivotear su carrera exitosamente hacia el diseño de servicios |
-| **Género:** Masculino | - Le atrajo la madurez relativa del ecosistema de Diseño en Chile |
-| **Edad:** 37 años | - No tiene una red de contactos amplia en el país, por lo que asiste a eventos de networking con regularidad |
-| **Ocupación:** Director de Escuela | - Su vinculación con el ecosistema de I+D ocurre principalmente a través de profesores y compañeros |
-| **Formación:** Sociología UC | - Tiene experiencia en agencias de arquitectura, pero no acostumbraba a realizar labores de investigación de corte académico |
-| **Idioma:** Español, Inglés | - Confía en la capacidad de creación de valor público-privado del Diseño Avanzado |
+| **Nombre:** Martín | - Cree en el potencial del Diseño como disciplina para ofrecer nuevos marcos epistemológicos de comprensión del mundo |
+| **Género:** Masculino | - Le parece interesante qué se puede decir como académico del Diseño desde Latinoamérica y Chile (factor diferenciador) |
+| **Edad:** 38 años | - Cree que les estudiantes de Diseño deberían leer más en su pregrado y desarrollar el pensamiento crítico|
+| **Ocupación:** Director de Escuela | - Piensa que es importante mediar la capacidad crítica que se tiene como investigador con las oportunidades de financiamiento público-privado|
+| **Formación:** Sociología UC | -  |
+| **Idioma:** Español, Inglés | -  |
 
 | Demografía | Necesidades & Objetivos |
 | ---------------- | ---------------- |
