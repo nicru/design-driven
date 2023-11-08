@@ -1,1 +1,1 @@
-# **Design Research dashboard alpha**
+# **Design Research Dashboard (alpha)**
