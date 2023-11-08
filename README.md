@@ -59,7 +59,9 @@
 ----
 ## **Antecedentes**  
 [**RCA Research Online** ](https://researchonline.rca.ac.uk/)  
-
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Content | Content |
 ****
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
 ****
