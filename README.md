@@ -81,7 +81,7 @@
 [**Digital Archives Newschool**](https://digital.archives.newschool.edu/)
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Content | Content |
+| Tiene una cantidad impresionante de registros multi-mediales en distinto formato y que se puede navegar desde categorías macro. | Lamentablemente es difícil de navegar, contiene sitios anidados que no son de acceso directo y tienen importancia al buscar. Además carece completamente de visualizaciones o formas de entender la investigación como un todo |
 ****
 [**DSpace MIT**](https://dspace.mit.edu/)
 | Aspectos positivos | Aspectos negativos|
