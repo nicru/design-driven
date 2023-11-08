@@ -91,5 +91,5 @@
 [**Aaltodoc**](https://aaltodoc.aalto.fi/)
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Content | Content |
+| Permite navegar desde la página principal hacia todo el resto de páginas sin mayor complicación. | Posee un exceso de información al tratar de agrupar todo en una sola página, además la parte de estadística incluye una sola tabla y no permite interacciones de mayor complejidad ni visualización de la información. |
 ## **Referentes**
