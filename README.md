@@ -42,20 +42,20 @@
 **Usuario Premedio n1°** Estudiante en vías de Titulación Diseño UC 
 | Perfil personal | Conductas & Creencias |
 | ---------------- | ---------------- | 
-| **Nombre:** Constanza | -  |
-| **Género:** Femenino | -  |
-| **Edad:** 21 años | -  |
-| **Ocupación:** Estudiante| -  |
-| **Formación:** Diseño UC | - |
-| **Idioma:** Español | -  |
+| **Nombre:** Constanza | - Apasionada por el Diseño, disfruta mucho su carrera |
+| **Género:** Femenino | - Le gustan las manualidades y le encanta meter las manos en la masa|
+| **Edad:** 21 años | - Le preocupa rendir bien en su proceso de Titulación para graduarse exitosamente |
+| **Ocupación:** Estudiante| - Nunca antes había revisado la página de memorias UC ni sabía que existía |
+| **Formación:** Diseño UC | - No tiene claro qué se investiga en la Escuela ni cuál va a ser su tema de investigación |
+| **Idioma:** Español | -  Tiene incertidumbre sobre a quién elegir como profesor guía |
 
 | Demografía | Necesidades & Objetivos |
 | ---------------- | ---------------- |
-| **Años de Experiencia:** 10 | **N/0 1:**  |
-| **Nivel educacional:** Doctorado | **N/0 2:**  |
-| **Ambición:** Muy Alta | **N/0 3:**  |
-| **Manejo tecnológico:** Medio | **N/0 4:**  |
-| **Publicaciones científicas:** >10 | **N/0 5:**  |
+| **Años de Experiencia:** 0 | **N/0 1:** Definir un tema de investigación novedoso para desarrollar su título |
+| **Nivel educacional:** Pregrado | **N/0 2:** Comprender y mapear qué se ha hecho antes en relación al tema de su elección |
+| **Ambición:** Media | **N/0 3:** Identificar referentes que informen el desarrollo de su proyecto |
+| **Manejo tecnológico:** Medio | **N/0 4:** Compilar referencias de calidad que nutran el marco teórico de su proyecto |
+| **Publicaciones científicas:** 0 | **N/0 5:** Seleccionar un/a profesor/a guía que se alinee correctamente con sus intereses |
 ----
 ## **Antecedentes**
 ## **Referentes**
