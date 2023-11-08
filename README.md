@@ -39,7 +39,7 @@
 | **Manejo tecnológico:** Medio | **N/0 4:** Traer invitados relevantes y de renombre a la Escuela que hagan sentido a la comunidad |
 | **Publicaciones científicas:** >10 | **N/0 5:** Formar diseñadores y diseñadoras preparados para los desafíos del mañana|
 ----
-**Usuario Premedio n1°**  
+**Usuario Premedio n1°** Estudiante en vías de Titulación Diseño UC 
 | Perfil personal | Conductas & Creencias | Demografía | Necesidades & Goals |
 | ---------------- | ---------------- | ---------------- | ---------------- |
 | Some content     | Other content    | Other content    | Other content    | 
