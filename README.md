@@ -61,7 +61,7 @@
 [**Memorias Diseño UC** ](https://diseno.uc.cl/memorias/)  
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Es relativamente sencilla en términos de usabilidad, no genera confusión en el usuario ni lo sobrecarga con múltiples cursos de acción. | La interfaz de navegación no permite interacciones con la información más allá de ver el profesor a cargo o los trabajos con nota máxima |
+| Es relativamente sencilla en términos de usabilidad, no genera confusión en el usuario ni lo sobrecarga con múltiples cursos de acción. | La interfaz de navegación no permite interacciones con la información más allá de ver el profesor a cargo o los trabajos con nota máxima. |
 ****
 [**RCA Research Online** ](https://researchonline.rca.ac.uk/)  
 | Aspectos positivos | Aspectos negativos|
@@ -71,12 +71,12 @@
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Es una página muy completa e intuitiva que permite rescatar de manera efectiva y eficaz los registros digitales de investigación de la universidad | Visualmente su estética es un poco anticuada en contraste con el resto de los sitios de UAL. |
+| Es una página muy completa e intuitiva que permite rescatar de manera efectiva y eficaz los registros digitales de investigación de la universidad. Incluye una sección de estadísticas muy interesante. | Visualmente su estética es un poco anticuada en contraste con el resto de los sitios de UAL. |
 ****
 [**Digital Commons RISD**](https://digitalcommons.risd.edu/)
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Content | Content |
+| Posee múltiples sistemas de navegación de la información, lo que enriquece y aumenta el potencial de búsqueda y hallazgos. Incluye dos sistemas dataviz muy interesantes. | Visualmente es muy anticuada y además la arquitectura de la información resulta demasiado compleja y compacta, lo cual genera confusión y agobio. |
 ****
 [**Digital Archives Newschool**](https://digital.archives.newschool.edu/)
 | Aspectos positivos | Aspectos negativos|
