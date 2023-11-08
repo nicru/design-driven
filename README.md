@@ -57,5 +57,17 @@
 | **Manejo tecnológico:** Medio | **N/0 4:** Compilar referencias de calidad que nutran el marco teórico de su proyecto |
 | **Publicaciones científicas:** 0 | **N/0 5:** Seleccionar un/a profesor/a guía que se alinee correctamente con sus intereses |
 ----
-## **Antecedentes**
+## **Antecedentes**  
+[**RCA Research Repository** ](http://google.com)  
+
+****
+[link](http://google.com)
+****
+[link](http://google.com)
+****
+[link](http://google.com)
+****
+[link](http://google.com)
+****
+[link](http://google.com)
 ## **Referentes**
