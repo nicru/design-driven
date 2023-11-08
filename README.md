@@ -65,8 +65,8 @@
 ****
 [**RCA Research Online** ](https://researchonline.rca.ac.uk/)  
 | Aspectos positivos | Aspectos negativos|
-| ---------------- | ---------------- |
-| Content | Content |
+| Ofrece un sistema de búsqueda avanzada que aborda múltiples aristas de los registros digitales del material de investigación producido por RCA. | La página no es amigable con el usuario en términos de UI/UX, no es intuitiva y puede resultar excesivamente compleja para alguien no acostumbrado a navegar bases de datos. |
+|  | Content |
 ****
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
 | Aspectos positivos | Aspectos negativos|
