@@ -15,11 +15,11 @@
 
 | Demografía | Necesidades & Objetivos |
 | ---------------- | ---------------- |
-| **Años de Experiencia:** 3 | **N1:** |
-| **Nivel educacional:** Magíster | **N2:** |
-| **Ambición:** Alta | **N3:** |
-| **Manejo tecnológico:** Medio (bajo) | **01:** |
-| **Publicaciones científicas:** 0 | **02:** |
+| **Años de Experiencia:** 3 | **N/0 1:** Disponer de fuentes confiables de trabajo académico riguroso para hallar Antecedentes y Referentes|
+| **Nivel educacional:** Magíster | **N/0 2:** Desarrollar una red de contactos academia-industria relacionada a sus intereses profesionales|
+| **Ambición:** Alta | **N/0 3:** Hallar problemas/oportunidades de Diseño no resueltas o poco exploradas|
+| **Manejo tecnológico:** Medio (bajo) | **N/0 4:** Sistematizar las fuentes académicas que ha consultado y compararlas|
+| **Publicaciones científicas:** 0 | **N/0 5:** Posicionarse como una experta local en el tema elegido para su tesis de Magíster|
 ****
 **Usuario Límite n°2**  
 | Perfil personal | Conductas & Creencias | Demografía | Necesidades & Goals |
