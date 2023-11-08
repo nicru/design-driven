@@ -33,11 +33,11 @@
 
 | Demografía | Necesidades & Objetivos |
 | ---------------- | ---------------- |
-| **Años de Experiencia:** 3 | **N/0 1:** Disponer de información confiable y ordenada de qué se está investigando en la Escuela |
-| **Nivel educacional:** Magíster | **N/0 2:** Facilitar los procesos de investigación a nivel escuela con mejores herramientas |
-| **Ambición:** Alta | **N/0 3:** Obtener oportunidades de financiamiento y fondos para la Escuela y su comunidad |
-| **Manejo tecnológico:** Medio (bajo) | **N/0 4:** Traer invitados relevantes y de renombre a la Escuela que hagan sentido a la comunidad |
-| **Publicaciones científicas:** 0 | **N/0 5:** Formar diseñadores y diseñadoras preparados para los desafíos del mañana|
+| **Años de Experiencia:** 10 | **N/0 1:** Disponer de información confiable y ordenada de qué se está investigando en la Escuela |
+| **Nivel educacional:** Doctorado | **N/0 2:** Facilitar los procesos de investigación a nivel escuela con mejores herramientas |
+| **Ambición:** Muy Alta | **N/0 3:** Obtener oportunidades de financiamiento y fondos para la Escuela y su comunidad |
+| **Manejo tecnológico:** Medio | **N/0 4:** Traer invitados relevantes y de renombre a la Escuela que hagan sentido a la comunidad |
+| **Publicaciones científicas:** >10 | **N/0 5:** Formar diseñadores y diseñadoras preparados para los desafíos del mañana|
 ----
 **Usuario Premedio n1°**  
 | Perfil personal | Conductas & Creencias | Demografía | Necesidades & Goals |
