@@ -58,6 +58,11 @@
 | **Publicaciones científicas:** 0 | **N/0 5:** Seleccionar un/a profesor/a guía que se alinee correctamente con sus intereses |
 ----
 ## **Antecedentes**  
+[**Memorias Diseño UC** ](https://diseno.uc.cl/memorias/)  
+| Aspectos positivos | Aspectos negativos|
+| ---------------- | ---------------- |
+| Es relativamente sencilla en términos de usabilidad, no genera confusión en el usuario ni lo sobrecarga con múltiples cursos de acción. | La interfaz de navegación no permite interacciones con la información más allá de ver el profesor a cargo o los trabajos con nota máxima |
+****
 [**RCA Research Online** ](https://researchonline.rca.ac.uk/)  
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
