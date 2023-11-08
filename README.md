@@ -71,7 +71,7 @@
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
 | Aspectos positivos | Aspectos negativos|
 | ---------------- | ---------------- |
-| Content | Content |
+| Es una página muy completa e intuitiva que permite rescatar de manera efectiva y eficaz los registros digitales de investigación de la universidad | Visualmente su estética es un poco anticuada en contraste con el resto de los sitios de UAL. |
 ****
 [**Digital Commons RISD**](https://digitalcommons.risd.edu/)
 | Aspectos positivos | Aspectos negativos|
