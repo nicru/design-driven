@@ -63,11 +63,11 @@
 ****
 [**UAL Research Online**](https://ualresearchonline.arts.ac.uk/)
 ****
-[link](http://google.com)
+[**Digital Commons RISD**](https://digitalcommons.risd.edu/)
 ****
-[link](http://google.com)
+[**Digital Archives Newschool**](https://digital.archives.newschool.edu/)
 ****
-[link](http://google.com)
+[**DSpace MIT**](https://dspace.mit.edu/)
 ****
-[link](http://google.com)
+[**Aaltodoc**](https://aaltodoc.aalto.fi/)
 ## **Referentes**
