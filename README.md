@@ -24,11 +24,11 @@
 **Usuario Límite n°2** Directivos de la Escuela de Diseño UC 
 | Perfil personal | Conductas & Creencias |
 | ---------------- | ---------------- | 
-| **Nombre:** Martín | - Cree en el potencial del Diseño como disciplina para ofrecer nuevos marcos epistemológicos de comprensión del mundo |
+| **Nombre:** Matías | - Cree en el potencial del Diseño como disciplina para ofrecer nuevos marcos epistemológicos de comprensión del mundo |
 | **Género:** Masculino | - Le parece interesante qué se puede decir como académico del Diseño desde Latinoamérica y Chile (factor diferenciador) |
 | **Edad:** 38 años | - Cree que les estudiantes de Diseño deberían leer más en su pregrado y desarrollar el pensamiento crítico|
 | **Ocupación:** Director de Escuela | - Piensa que es importante mediar los intereses de la academia con los de la industria para el desarrollo de la I+D en Diseño|
-| **Formación:** Sociología UC | - Le preocupa cómo se va a transformar la enseñanza y el ejercicio del Diseño a futuro|
+| **Formación:** Cientista Social UC | - Le preocupa cómo se va a transformar la enseñanza y el ejercicio del Diseño a futuro|
 | **Idioma:** Español, Inglés | - Busca constantemente oportunidades de internacionalización y colaboración |
 
 | Demografía | Necesidades & Objetivos |
