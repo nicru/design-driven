@@ -93,3 +93,4 @@
 | ---------------- | ---------------- |
 | Permite navegar desde la página principal hacia todo el resto de páginas sin mayor complicación. | Posee un exceso de información al tratar de agrupar todo en una sola página, además la parte de estadística incluye una sola tabla y no permite interacciones de mayor complejidad ni visualización de la información. |
 ## **Referentes**
+![Dashboard-Moodboard](https://github.com/nicru/design-research-dashboard-v1/assets/48329013/9e5ad6e1-e0d4-4bf5-a569-860b7a107f2a)
