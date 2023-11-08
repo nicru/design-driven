@@ -3,7 +3,7 @@
 *"Facilitar la navegación y visualización de la información disponible sobre investigaciones de Diseño"*  
 ###### **Aclaración:** Este piloto estará basado en la información disponible en la página de memorias UC, sin embargo, se espera que a largo plazo pueda expandirse a más instancias.  
 ## **Usuarios**  
-**Usuario Límite n°1**  
+**Usuario Límite n°1:** Estudiante MADA UC 
 | Perfil personal | Conductas & Creencias |
 | ---------------- | ---------------- | 
 | **Nombre:** Estefanía | - Cree que el MADA le ofrece una oportunidad para pivotear su carrera exitosamente hacia el diseño de servicios |
@@ -13,13 +13,13 @@
 | **Formación:** Arquitecta, Universidad de los Andes (Colombia) | - Tiene experiencia en agencias de arquitectura, pero no acostumbraba a realizar labores de investigación de corte académico |
 | **Idioma:** Español | - Confía en la capacidad de creación de valor público-privado del Diseño Avanzado |
 
-| Demografía | Necesidades & Goals |
+| Demografía | Necesidades & Objetivos |
 | ---------------- | ---------------- |
-| **Años de Experiencia:** 3 | Content |
-| **Nivel educacional:** Magíster | Content |
-| **Ambición:** Alta | Content |
-| **Manejo tecnológico:** Medio (bajo) | Content |
-| **Publicaciones científicas:** 0 | Content |
+| **Años de Experiencia:** 3 | **N1:** |
+| **Nivel educacional:** Magíster | **N2:** |
+| **Ambición:** Alta | **N3:** |
+| **Manejo tecnológico:** Medio (bajo) | **01:** |
+| **Publicaciones científicas:** 0 | **02:** |
 ****
 **Usuario Límite n°2**  
 | Perfil personal | Conductas & Creencias | Demografía | Necesidades & Goals |
