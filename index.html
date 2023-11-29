@@ -1,87 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <!-- Meta tags from the original document -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>DESIGN DRIVEN RESEARCH</title>
-        <meta name="title" content="DESIGN DRIVEN - RESEARCH" />
-        <meta name="description" content="Design driven research platform for better thesis visualization." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://design-driven.cl/" />
-        <meta property="og:title" content="DESIGN DRIVEN - RESEARCH" />
-        <meta property="og:description" content="Design driven research platform for better thesis visualization." />
-        <meta property="og:image" content="https://design-driven.cl/path-to-my-image.jpg" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://design-driven.cl/" />
-        <meta property="twitter:title" content="DESIGN DRIVEN - RESEARCH" />
-        <meta property="twitter:description" content="Design driven research platform for better thesis visualization." />
-        <meta property="twitter:image" content="https://design-driven.cl/path-to-my-image.jpg" />
+<html lang="es">
+<head>
+    <!-- Meta tags from the original document -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DESIGN DRIVEN RESEARCH</title>
+    <meta name="title" content="DESIGN DRIVEN - RESEARCH">
+    <meta name="description" content="Design driven research platform for better thesis visualization.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://design-driven.cl/">
+    <meta property="og:title" content="DESIGN DRIVEN - RESEARCH">
+    <meta property="og:description" content="Design driven research platform for better thesis visualization.">
+    <meta property="og:image" content="https://design-driven.cl/path-to-my-image.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://design-driven.cl/">
+    <meta property="twitter:title" content="DESIGN DRIVEN - RESEARCH">
+    <meta property="twitter:description" content="Design driven research platform for better thesis visualization.">
+    <meta property="twitter:image" content="https://design-driven.cl/path-to-my-image.jpg">
 
-        <!-- CSS and Fonts from the template -->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+    <!-- CSS and Fonts from the template -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="css/styles.css" rel="stylesheet">
 
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    </head>
-    <!-- Basado en el template: https://github.com/startbootstrap/startbootstrap-grayscale -->
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    </ul>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-autocolors"></script>
+</head>
+<body>
+    <!-- Navbar section start -->
+    <nav class="navbar navbar-dark bg-dark d-flex justify-content-center p-3">
+        <span class="navbar-brand mb-0 h1">Memorias de Proyecto de Título de Diseño UC - Nueva Interfaz</span>
+    </nav>
+    <!-- Navbar section end -->
+
+    <!-- Hero section start -->
+    <section class="hero-section d-flex align-items-center py-5">
+        <div class="container">
+            <div class="row g-4 align-items-center"> <!-- Added align-items-center for vertical alignment -->
+                <div class="col-lg-6">
+                    <canvas id="myDoughnutChart"></canvas>
                 </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Design Driven Research</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">Open source platform for design researchers seeking new tools.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                <div class="col-lg-6">
+                    <div class="text-center text-lg-start">
+                        <h1 class="display-1 fw-bold mb-3">Proyectos de Título</h1>
+                        <h3 class="lead fs-1 text-secondary fw-bold mb-3">2010 - 2022</h3>
+                        <h3 class="lead fs-1 mb-4">Escuela de Diseño UC</h3>
+                        <button class="btn btn-lg btn-outline-dark me-2">Explorar</button>
+                        <button class="btn btn-lg btn-outline-dark">Visualizar</button>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Research Repository Navigation System</h2>
-                        <p class="text-white-50">
-                            Our first open source project is a navigation system for research repositories. It is a tool that allows researchers to explore and visualize multiple research papers over their literature review. <br>
-                            <a href="https://startbootstrap.com/theme/grayscale/">Click here for a demo.</a>
-                        </p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Hero section end -->
+
+    <!-- Footer section start -->
+    <footer class="footer bg-dark text-white mt-5 p-3 text-center">
+        <div class="container">
+            <span>Examen para el curso de Diseño y Nuevos Medios 2023-2 Nicolás Cruzat</span>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Chart.js script here -->
+
+    <script>
+        // Function to count occurrences of each "soporte" value and group smaller categories
+        function countSoporteOccurrences(data, threshold = 8) {
+            var countMap = {};
+            var othersLabel = 'otros';
+    
+            // Iterate over each entry in the data
+            data.forEach(function(entry) {
+                var soporte = entry.soporte;
+                if (soporte) {
+                    countMap[soporte] = (countMap[soporte] || 0) + 1;
+                }
+            });
+    
+            // Group categories with entries less than or equal to the threshold into 'otros'
+            Object.keys(countMap).forEach(function(key) {
+                if (countMap[key] <= threshold) {
+                    countMap[othersLabel] = (countMap[othersLabel] || 0) + countMap[key];
+                    delete countMap[key];
+                }
+            });
+    
+            return countMap;
+        }
+    
+        // Function to update the Doughnut chart with grouped data and autocolors
+        function updateDoughnutChart(countMap) {
+            var ctx = document.getElementById('myDoughnutChart').getContext('2d');
+    
+            var data = {
+                labels: Object.keys(countMap),
+                datasets: [{
+                    data: Object.values(countMap)
+                    // No need to set backgroundColor here as we will use the autocolors plugin
+                }]
+            };
+    
+            var myDoughnutChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: data,
+                options: {
+                    responsive: true,
+                    plugins: {
+                        autocolors: {
+                            mode: 'data' // Use the 'data' mode which generates colors based on data
+                        },
+                        legend: {
+                            position: 'top'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Distribution of Soporte in Theses'
+                        }
+                    }
+                }
+            });
+        }
+    
+        // Fetch JSON data from the file
+        fetch('cleaned_data.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Count occurrences of each "soporte" value with grouping
+                var countMap = countSoporteOccurrences(data, 8);
+    
+                // Update the Doughnut chart with the counted and grouped data
+                updateDoughnutChart(countMap);
+            })
+            .catch(error => {
+                console.error('Error fetching or processing data:', error);
+                // Additional error handling or user notification can be added here
+            });
+    </script>    
+    
+</body>
 </html>
