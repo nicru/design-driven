@@ -56,6 +56,32 @@
     <!-- Navbar section end -->
 
     <!-- Content section start -->
+    
+    <!-- Visualize section start -->
+    <div class="container mt-5">
+        <h2>Crear Visualización Personalizada</h2>
+        <form id="visualizationForm">
+            <div class="mb-3">
+                <label for="dataField">Seleccionar Campo de Datos:</label>
+                <select class="form-select" id="dataField">
+                    <option value="campo1">Campo 1</option>
+                    <option value="campo2">Campo 2</option>
+                    <!-- Agregar más opciones según su esquema de datos -->
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="chartType">Seleccionar Tipo de Gráfico:</label>
+                <select class="form-select" id="chartType">
+                    <option value="bar">Gráfico de Barras</option>
+                    <option value="line">Gráfico de Línea</option>
+                    <!-- Agregar más tipos de gráficos según sea necesario -->
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Generar Visualización</button>
+        </form>
+    </div>
+    <!-- Visualize section end -->
+    
     <!-- Content section end -->
 
     <!-- Footer section start -->
@@ -72,6 +98,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
     <!-- Chart.js script here -->
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const visualizationForm = document.getElementById("visualizationForm");
+    
+            visualizationForm.addEventListener("submit", function (event) {
+                event.preventDefault();
+    
+                // Retrieve user selections
+                const selectedDataField = document.getElementById("dataField").value;
+                const selectedChartType = document.getElementById("chartType").value;
+    
+                // Call a function to generate the visualization based on user selections
+                generateVisualization(selectedDataField, selectedChartType);
+            });
+    
+            function generateVisualization(dataField, chartType) {
+                // Implement logic to generate the visualization using Chart.js
+                // You can fetch data from your JSON dataset and create a chart here
+                // Refer to Chart.js documentation for chart creation.
+            }
+        });
+    </script>
+    
 </body>
 </html>
