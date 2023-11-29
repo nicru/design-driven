@@ -38,7 +38,10 @@
             <a class="navbar-brand" href="#">Memorias de Proyecto de Título de Diseño UC - Nueva Interfaz</a>
 
             <!-- Right side of the navbar -->
-            <div class="navbar-collapse justify-content-end" id="navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
@@ -56,7 +59,67 @@
     <!-- Navbar section end -->
 
     <!-- Content section start -->
-    
+    <div class="container mt-5">
+        <div class="row justify-content-center"> <!-- Center the entire content -->
+            <div class="col-lg-6">
+                <!-- Search Engine Section -->
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Escribe los términos o palabras clave que quieras buscar..." id="searchInput">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="searchButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3"> <!-- Center the entire content -->
+            <div class="col-lg-3">
+                <!-- Filters Section -->
+                <h5>Filtros</h5>
+                <!-- Add your filter elements here, for example: -->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="filter1">
+                    <label class="form-check-label" for="filter1">
+                        Filtro 1
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="filter2">
+                    <label class="form-check-label" for="filter2">
+                        Filtro 2
+                    </label>
+                </div>
+                <!-- Add more filters as needed -->
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3"> <!-- Center the entire content -->
+            <div class="col-lg-12">
+                <!-- Database Visualization Section -->
+                <h5>Repositorio de Memorias de Título</h5>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Ámbito</th>
+                            <th>¿Qué?</th>
+                            <th>PDF</th>
+                            <th>Evaluación</th>
+                            <th>Más información</th>
+                            <!-- Add more table headers as needed -->
+                        </tr>
+                    </thead>
+                    <tbody id="databaseTable">
+                        <!-- Table rows will be dynamically added here using JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
     <!-- Content section end -->
 
     <!-- Footer section start -->
@@ -71,7 +134,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Chart.js script here -->
 
 </body>
