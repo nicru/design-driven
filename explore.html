@@ -78,7 +78,7 @@
 
         <div class="row justify-content-center mt-3"> <!-- Center the entire content -->
             <div class="col-lg-3">
-                <!-- Filters Section -->
+                <!-- Filters Section start -->
                 <h5>Filtros</h5>
                 <!-- Add your filter elements here, for example: -->
                 <div class="form-check">
@@ -97,20 +97,25 @@
             </div>
         </div>
 
+        <!-- Filters Section end -->
+
+        <!-- Table section start -->
+
         <div class="row justify-content-center mt-3"> <!-- Center the entire content -->
             <div class="col-lg-12">
                 <!-- Database Visualization Section -->
                 <h5>Repositorio de Memorias de Título</h5>
-                <table class="table table-bordered">
+                <table class="table table-dark table-bordered table-striped ">
                     <thead>
                         <tr>
-                            <th>Nombre</th>
+                            <th>Año</th> <!-- New column for Year -->
+                            <th>Nombre del Proyecto</th>
+                            <th>Guía(s)</th> <!-- New column for Guides -->
                             <th>Ámbito</th>
                             <th>¿Qué?</th>
                             <th>PDF</th>
                             <th>Evaluación</th>
-                            <th>Más información</th>
-                            <!-- Add more table headers as needed -->
+                            <th>Más información</th> <!-- More information button -->
                         </tr>
                     </thead>
                     <tbody id="databaseTable">
@@ -119,7 +124,29 @@
                 </table>
             </div>
         </div>
+    <!-- Table section end -->
+
+    <!-- Modal section start -->
+
+    <div class="modal fade" id="projectInfoModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Información del Proyecto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Project Information Goes Here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- Modal section end -->
+
     <!-- Content section end -->
 
     <!-- Footer section start -->
@@ -135,7 +162,50 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Chart.js script here -->
+    <!-- Scripting section -->
+    <script>
+    
+    // Function to open the modal and display the project information
+    function openModal(project) {
+        // Assuming 'project' is an object with the project details
+        const modalBody = document.getElementById('projectInfoModal').querySelector('.modal-body');
+        modalBody.innerHTML = `
+            <p><strong>Año:</strong> ${project.year}</p>
+            <p><strong>Nombre del Proyecto:</strong> ${project.nombre_proyecto}</p>
+            <p><strong>Guía:</strong> ${project.nombre_guia}</p>
+            <p><strong>Ámbito:</strong> ${project.ambito}</p>
+            <p><strong>Descripción:</strong> ${project.que}</p>
+            <!-- Add more details as needed -->
+        `;
+
+        // Use Bootstrap's modal methods to show the modal
+        var modal = new bootstrap.Modal(document.getElementById('projectInfoModal'));
+        modal.show();
+    }
+    
+    // Fetch JSON data from the file
+    fetch('https://raw.githubusercontent.com/nicru/design-driven/main/updated_cleansed_data.json')
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.getElementById('databaseTable');
+            data.forEach(item => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${item.year}</td> <!-- Year -->
+                    <td>${item.nombre_proyecto}</td>
+                    <td>${item.nombre_guia}</td> <!-- Guide -->
+                    <td>${item.ambito}</td>
+                    <td>${item.que}</td>
+                    <td><a href="https://diseno.uc.cl/memorias/pdf/${item.nombre_pdf}">PDF</a></td> <!-- PDF Link -->
+                    <td>${item.nota_titulo}</td>
+                    <td><button onclick="openModal('${item.id}')">Más Información</button></td> <!-- More Information -->
+                `;
+                tableBody.appendChild(row);
+            });
+        })
+        .catch(error => console.error('Error fetching or processing data:', error));
+
+    </script>
 
 </body>
 </html>
