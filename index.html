@@ -48,8 +48,8 @@
                         <h1 class="display-1 fw-bold mb-3">Proyectos de Título</h1>
                         <h3 class="lead fs-1 text-secondary fw-bold mb-3">2010 - 2022</h3>
                         <h3 class="lead fs-1 mb-4">Escuela de Diseño UC</h3>
-                        <button class="btn btn-lg btn-outline-dark me-2">Explorar</button>
-                        <button class="btn btn-lg btn-outline-dark">Visualizar</button>
+                        <a class="btn btn-lg btn-outline-dark me-2" href="explore.html">Explorar</a>
+                        <a class="btn btn-lg btn-outline-dark" href="visualize.html">Visualizar</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
         }
     
         // Fetch JSON data from the file
-        fetch('cleaned_data.json')
+        fetch('https://raw.githubusercontent.com/nicru/design-driven/main/cleaned_data.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
