@@ -61,18 +61,41 @@
 
     <!-- Searchbar section start -->
 
-    <input type="text" id="searchInput" class="form-control mb-3" placeholder="Buscar proyectos...">
+    <div class="container mt-3 mb-3">
+        <div class="row">
+            <div class="col">
+                <form id="searchForm">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" class="form-control" placeholder="Buscar proyectos..." aria-label="Search projects" aria-describedby="button-search">
+                        <button class="btn btn-outline-secondary" type="submit" id="button-search">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
 
-    <!-- Filter section start (Needs improvement)-->
+    <!-- Filter section start -->
 
-    <select class="form-select mb-3" id="filterSelect">
-        <option selected>Choose a filter...</option>
-        <option value="filter1">Filter 1</option>
-        <option value="filter2">Filter 2</option>
-        <!-- Add more filter options as needed -->
-      </select>      
+    <div class="container mt-3 mb-3">
+        <div class="row">
+        <div class="col d-flex justify-content-start">
+            <!-- Soporte Dropdown -->
+            <div class="dropdown me-2">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="soporteDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                Soporte
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="soporteDropdown" id="soporteFilter">
+                <!-- Dynamically generated items will go here -->
+            </ul>
+            </div>
+    
+            <!-- More Dropdowns to be added in the future -->
 
-    <!-- Filter section end -->
+        </div>
+        </div>
+    </div>
+
+    <!-- Filter section end -->  
 
     <!-- Searchbar section end -->
 
@@ -251,7 +274,10 @@
             <p><strong>Ámbito:</strong> ${checkValue(project.ambito)}</p>
             <p><strong>Descripción:</strong> ${checkValue(project.que)}</p>
             <p><strong>Propósito:</strong> ${checkValue(project.para_que)}</p>
-            <!-- Additional details can be conditionally rendered if they are not empty -->
+            <p><strong>Semestre:</strong> ${checkValue(project.sem)}</p>
+            <p><strong>Evaluadores:</strong> ${checkValue(project.nombre_ev_uno)}, ${checkValue(project.nombre_ev_dos)}</p>
+            <p><strong>Rango Etario:</strong> ${checkValue(project.rango_etario)}</p>
+            <p><strong>Género:</strong> ${checkValue(project.genero)}</p>
         `;
         
         // Show the modal
@@ -269,6 +295,122 @@
             })
             .catch(error => console.error('Error fetching data:', error));
     }
+
+    // Search projects function
+
+    function searchProjects() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+        const filteredProjects = allProjects.filter(project => {
+            // Check each relevant field, ensuring it's not null or undefined
+            return (project.nombre_proyecto && project.nombre_proyecto.toLowerCase().includes(searchTerm)) ||
+                (project.nombre_guia && project.nombre_guia.toLowerCase().includes(searchTerm)) ||
+                (project.nombre_completo && project.nombre_completo.toLowerCase().includes(searchTerm)) ||
+                (project.ambito && project.ambito.toLowerCase().includes(searchTerm)) ||
+                (project.soporte && project.soporte.toLowerCase().includes(searchTerm));
+            // Add other fields as necessary
+        });
+
+        displayProjects(1, filteredProjects);
+        initializePagination(filteredProjects);
+    }
+
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission and page reload
+        searchProjects(); // Call the search function
+    });
+
+    // Filtering projects functions
+
+    // Function to count occurrences of each "soporte" value and group smaller categories
+    function countSoporteOccurrences(data, threshold = 10) {
+        var countMap = {};
+        var othersLabel = 'Otros';
+
+        // Iterate over each entry in the data
+        data.forEach(function(entry) {
+            var soporte = entry.soporte;
+            if (soporte) {
+                countMap[soporte] = (countMap[soporte] || 0) + 1;
+            }
+        });
+
+        // Group categories with entries less than or equal to the threshold into 'Otros'
+        Object.keys(countMap).forEach(function(key) {
+            if (countMap[key] < threshold) {
+                countMap[othersLabel] = (countMap[othersLabel] || 0) + countMap[key];
+                delete countMap[key];
+            }
+        });
+
+        return countMap;
+    }
+
+    // Function to generate and populate dropdowns with filter options
+    function generateFilterOptions(data) {
+        const soporteCounts = countSoporteOccurrences(data);
+        const soporteOptions = Object.keys(soporteCounts).sort();
+
+        populateDropdown('soporteFilter', soporteOptions);
+        // Call similar functions for 'genero' or other filter types as needed (To be done in the future!)
+    }
+
+    // Function to populate dropdown with filter options
+    function populateDropdown(dropdownId, options) {
+        const dropdownMenu = document.getElementById(dropdownId);
+        dropdownMenu.innerHTML = ''; // Clear current options
+
+        options.forEach(option => {
+            const item = document.createElement('li');
+            const link = document.createElement('a');
+            link.className = 'dropdown-item';
+            link.href = '#';
+            link.textContent = option;
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                filterProjects(dropdownId, option);
+            });
+            item.appendChild(link);
+            dropdownMenu.appendChild(item);
+        });
+    }
+
+    // Continue from previous code...
+
+    // Function to filter projects based on selection
+    function filterProjects(filterType, value) {
+        let filteredProjects = [];
+
+        if (filterType === 'soporteFilter') {
+            filteredProjects = allProjects.filter(project => project.soporte === value || (value === 'Otros' && project.soporte));
+        } else if (filterType === 'generoFilter') {
+            filteredProjects = allProjects.filter(project => project.genero === value);
+        }
+
+        // Update the display of projects with the filtered results
+        displayProjects(1, filteredProjects);
+        // Reset pagination
+        initializePagination(filteredProjects);
+    }
+
+    // Function to initialize pagination
+    function initializePagination(data) {
+        const pageCount = Math.ceil(data.length / projectsPerPage);
+        const paginationContainer = document.getElementById('paginationContainer');
+        paginationContainer.innerHTML = ''; // Clear existing pagination buttons
+
+        // ... (rest of your existing initializePagination function here)
+
+        // Ensure the paginationContainer is filled with the correct number of pages
+    }
+
+    // Call fetchProjects on page load to get all projects and populate dropdowns
+    fetchProjects().then(() => {
+        // After projects are fetched, generate filter options
+        generateFilterOptions(allProjects);
+    });
+
+    // Make sure to call `generateFilterOptions` after the data is fetched and `allProjects` is populated
 
     // Page change helpter
     function changePage(page) {
@@ -344,17 +486,21 @@
     }
 
     // Call fetchProjects on page load
+    // Fetch JSON data and initialize the page
+    function fetchProjects() {
+        return fetch('https://raw.githubusercontent.com/nicru/design-driven/main/updated_cleansed_data.json')
+            .then(response => response.json())
+            .then(data => {
+                allProjects = data; // Store the fetched data
+                displayProjects(1, allProjects); // Display the first page of projects
+                initializePagination(allProjects); // Initialize pagination with allProjects
+                generateFilterOptions(allProjects); // Generate filter options after projects are fetched
+            })
+            .catch(error => console.error('Error fetching data:', error));
+    }
+
+    // Call fetchProjects on page load to get all projects and populate dropdowns
     fetchProjects();
-    
-    // New code for dropdown to select the number of cards per page
-    document.querySelectorAll('.dropdown-menu [data-cards]').forEach(item => {
-        item.addEventListener('click', function() {
-            projectsPerPage = parseInt(this.getAttribute('data-cards'), 10);
-            currentPage = 1; // Reset to the first page
-            displayProjects(currentPage, allProjects); // Update the display
-            initializePagination(allProjects); // Update the pagination
-        });
-    });
 
     </script>
 <!-- Scripting section end -->
